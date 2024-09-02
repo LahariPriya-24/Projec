@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+<style>
+    /* Custom CSS to adjust the size of checkbox and badge pill */
+    .custom-checkbox .custom-control-input {
+        width: 0.5rem; /* Adjust the width of the checkbox */
+        height: 0.5rem; /* Adjust the height of the checkbox */
+    }
+.badge-sm {
+        font-size: 0.55rem; /* Adjust the font size of the badge */
+        padding: 0.15rem 0.5rem; /* Adjust the padding of the badge */
+    }
+.custom-hr {
+            background-color: lightgrey;
+            height: 0.40rem; /* Half of the standard line height */
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="height:100vh">
+            <div class="col-2 bg-primary">
+                <div class="row justify-content-center" style="height:10vh">
+                    <h3 style="color:white; font-family:Candara"><p> <img src="C:\Users\Sculpture\Downloads\download.png" class="rounded" style="width:40px; height:40px; margin-right:8px; "><b>APNTBS</b></p></h3>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\meter-2-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px"> Dashboard</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\Customer-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px"> 
+Customer</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\subscr.png" style="width:30px; height:30px; margin-right:8px; margin-left:10px"> 
+
+Subscription</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\Bill-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px"> 
+
+Invoice</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+
+<a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\memos.jpg" style="width:30px; height:30px; margin-right:3px; margin-left:10px"> 
+
+Credit memos</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\_tick_accept_agree_ok_done_correct_complete_-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px">
+Approvals</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\__report_chart_analytics-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px"> 
+
+
+Periodic activities</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\email-57-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px"> 
+
+
+Sync</p></a>
+                </div>
+                <div class="row" style="height:10vh">
+                    <a href="#" class="btn btn-primary"><p>
+<img src="C:\Users\Sculpture\Downloads\logout-64.webp" style="width:30px; height:30px; margin-right:8px; margin-left:10px">
+Logout</p></a>
+                </div>
+            </div>
+            <div class="col-10 bg-white">
+                <div class="container-fluid">
+<div class="row">
+<div class="col">
+                    <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-0" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-primary my-0" type="submit"style="height:38px;"><p><img src="C:\Users\Sculpture\Downloads\search-circle-blue-64.webp" style="width:30px;height:30px;"></p></button>
+                        </form>
+                    </nav>
+</div>
+
+<div class="col-4">
+<div class="row" style="height:3vh;">
+<button type="button" class="btn btn-light" style=width:50px; height:1px; margin-right:10px;">
+<p><img src="C:\Users\Sculpture\Downloads\notification-64 (1).webp" style="width:50px; height:40px;"></p></button>
+<button type="button" class="btn btn-light" style=width:70px; height:1px;"
+<p><img src="C:\Users\Sculpture\Downloads\shopping-cart-grey-64.webp" style="width:30px; height:30px;"></p></button>
+<div class="vr"></div>
+<div class="col-8">
+
+<p style="color:DimGray; text-align:right;">
+     Lahari Priya <img src="C:\Users\Sculpture\Downloads\girl_female_woman_avatar-64.webp" style="width:50px; height:50px"></p>
+</div>
+</div>
+</div>
+               </div>
+</div>
+  <hr class="custom-hr">
+                <div class="container-fluid">
+                    <div class="row" style="height:7vh;">
+                        <div class="col">
+                            <div class="btn">
+                                <button type="button" class="btn btn-outline-secondary">All</button>
+                                <button type="button" class="btn btn-outline-secondary" style="height:40px;  margin-right:3px;"><p style="color:Gray;">
+    <img src="C:\Users\Sculpture\Downloads\_87ui-64.webp" width="20" height="15px">
+    Filter
+</p>
+
+                                <button type="button" class="btn btn-outline-secondary"> Search for...</button>
+                            </div>
+                        </div>
+                        <div class="col-4">
+<div class="row">
+<div class="col">
+<button type="button" class="btn btn-white" style="width:50px; height:40px;"><p><img src="C:\Users\Sculpture\Downloads\__arrow_down_download-512.webp" width="25;" height="25;"></p></button>
+                            <button type="button" class="btn btn-primary" style="height:40px;"><p><img src="C:\Users\Sculpture\Downloads\ic_fluent_people_audience_24_filled-64.webp" style="width=20" height="15px">Create Subscription</p></button>
+                            <button type="button" class="btn btn-white" style="height:40px;"><p style="color:Gray;">
+    <img src="C:\Users\Sculpture\Downloads\7203362.png" alt="Description of Image" width="20" height="15px">
+    Show/Hide
+</p>
+</button>
+</div>
+</div>
+                        </div>
+                    </div>
+<hr class="custom-hr">
+                    <div class="row" style="height:5vh">
+                    <div class="col">
+                        <table class="table">
+                            <thead>
+    <tr class="table-info">
+        <th scope="col" style="width:20%;"> <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input border border-dark"
+                                    id="customCheck1">
+                                <label class="custom-control-label" for="customCheck1">Subscription Info</label></th>
+        <th scope="col" style="width:15%;">Customer Info</th>
+        <th scope="col" style="width:25%;"></th>
+        <th scope="col" style="width:15%;">Net Payment</th>
+        <th scope="col" style="width:15%;">Updated On</th>
+    </tr>
+</thead>
+
+                          <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="custom-control custom-checkbox d-inline-block align-middle">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="exampleCheckbox">
+                                                            <label class="custom-control-label"
+                                                                for="exampleCheckbox"></label>
+                                                        </div>
+                                                        <span class="badge badge-pill badge-warning badge-sm d-inline-block align-middle">
+                                                            <img src="C:\Users\Sculpture\Downloads\shield-64.webp"
+                                                                alt="Image" style="width: 10px; height:7px;"
+                                                                class="mr-1">
+                                                            <span>1676270621232</span>
+                                                        </span>
+                                                        <span
+                                                            class="badge badge-pill badge-primary badge-sm d-inline-block align-middle">
+                                                            <span>QUARTERLY</span>
+                                                        </span>
+<b style="color:DarkSlateGray;">F&O Telco</b>
+<p style="color:SlateGray;">P0#LPO99823767</p >                                                   </div>
+                                                </div>
+                                            </div>
+                                        </td>                                   
+ <td style="color: DarkSlateGray;"><b>Apparel Group</b></td>
+
+                                    <td></td>
+                                    <td style="color: DarkSlateGray;"><b text-font="40%;">AED1,169.61</b>
+<br>
+<span class="badge badge-pill badge-primary">9+ Subscriptions</span></td>
+
+                                    <td><p>
+    <img src="C:\Users\Sculpture\Downloads\calendar-event-planning-64.webp" alt="Image" style="width: 30px; height:30 px; margin-right:2px;">
+  <b style="color:DarkSlateGray;">13 Feb 2023</b>
+</p>
+</td>
+                                </tr>
+                              <tr>
+                                        <td>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="custom-control custom-checkbox d-inline-block align-middle">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="exampleCheckbox">
+                                                            <label class="custom-control-label"
+                                                                for="exampleCheckbox"></label>
+                                                        </div>
+                                                        <span class="badge badge-pill badge-warning badge-sm d-inline-block align-middle">
+                                                            <img src="C:\Users\Sculpture\Downloads\shield-64.webp"
+                                                                alt="Image" style="width: 10px; height:7px;"
+                                                                class="mr-1">
+                                                            <span>1676270621232</span>
+                                                        </span>
+                                                        <span
+                                                            class="badge badge-pill badge-primary badge-sm d-inline-block align-middle">
+                                                            <span>MONTHLY</span>
+                                                        </span>
+<br>
+<b style="color:DarkSlateGray;">BC Danube</b>
+<p style="color:SlateGray;">P0#LPO99823768</p >                                                   </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                     <td style="color: DarkSlateGray;"><b>LALS GROUP LLC</b></td>
+                                    <td></td>
+                                       <td style="color: DarkSlateGray;"><b text-font="40%;">AED449.85</b>
+<br>
+<span class="badge badge-pill badge-primary">9+ Subscriptions</span></td>
+
+
+                                    <td><p>
+    <img src="C:\Users\Sculpture\Downloads\calendar-event-planning-64.webp" alt="Image" style="width: 30px; height:30 px; margin-right:2px;">
+  <b style="color:DarkSlateGray;">21 Feb 2023</b>
+</p>
+</td>
+
+                                </tr>
+                                <tr>
+                                  <td>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="custom-control custom-checkbox d-inline-block align-middle">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="exampleCheckbox">
+                                                            <label class="custom-control-label"
+                                                                for="exampleCheckbox"></label>
+                                                        </div>
+                                                        <span class="badge badge-pill badge-warning badge-sm d-inline-block align-middle">
+                                                            <img src="C:\Users\Sculpture\Downloads\shield-64.webp"
+                                                                alt="Image" style="width: 10px; height:7px;"
+                                                                class="mr-1">
+                                                            <span>1676270621232</span>
+                                                        </span>
+                                                        <span
+                                                            class="badge badge-pill badge-primary badge-sm d-inline-block align-middle">
+                                                            <span>MONTHLY</span>
+                                                        </span>
+<b style="color:DarkSlateGray;">Danube D365 Tenant</b>
+<p style="color:SlateGray;">P0#PO1190645337</p >                                                   </div>
+                                                </div>
+                                            </div>
+                                        </td>
+
+                                     <td style="color: DarkSlateGray;"><b>Apparel Group</b></td>
+                                    <td></td>
+                                       <td style="color: DarkSlateGray;"><b text-font="40%;">AED89.97</b>
+<br>
+<span class="badge badge-pill badge-primary">3 Subscriptions</span></td>
+
+
+<td><p>
+    <img src="C:\Users\Sculpture\Downloads\calendar-event-planning-64.webp" alt="Image" style="width: 30px; height:30 px; margin-right:2px;">
+  <b style="color:DarkSlateGray;">24 Feb 2023</b>
+</p>
+</td>
+
+                                </tr>
+<tr>
+                                  <td>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="custom-control custom-checkbox d-inline-block align-middle">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="exampleCheckbox">
+                                                            <label class="custom-control-label"
+                                                                for="exampleCheckbox"></label>
+                                                        </div>
+                                                        <span class="badge badge-pill badge-warning badge-sm d-inline-block align-middle">
+                                                            <img src="C:\Users\Sculpture\Downloads\shield-64.webp"
+                                                                alt="Image" style="width: 10px; height:7px;"
+                                                                class="mr-1">
+                                                            <span>1676270621232</span>
+                                                        </span>
+                                                        <span
+                                                            class="badge badge-pill badge-primary badge-sm d-inline-block align-middle">
+                                                            <span>HALFYEARLY</span>
+                                                        </span>
+<b style="color:DarkSlateGray;">Danube Karama Post</b>
+<p style="color:SlateGray;">P0#LPO99823767</p >                                                   </div>
+                                                </div>
+                                            </div>
+                                        </td>
+
+ <td style="color: DarkSlateGray;"><b>Maya Global Pvt.Ltd</b></td>
+                                    <td></td>
+                                      <td style="color: DarkSlateGray;"><b text-font="40%;">AED119.96</b>
+<br>
+<span class="badge badge-pill badge-primary">4 Subscriptions</span></td>
+
+
+                                    <td><p>
+    <img src="C:\Users\Sculpture\Downloads\calendar-event-planning-64.webp" alt="Image" style="width: 30px; height:30 px; margin-right:2px;">
+  <b style="color:DarkSlateGray;">24 Feb 2023</b>
+</p>
+</td>
+
+                                </tr>
+
+<tr>
+                                  <td>
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="custom-control custom-checkbox d-inline-block align-middle">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="exampleCheckbox">
+                                                            <label class="custom-control-label"
+                                                                for="exampleCheckbox"></label>
+                                                        </div>
+                                                        <span class="badge badge-pill badge-warning badge-sm d-inline-block align-middle">
+                                                            <img src="C:\Users\Sculpture\Downloads\shield-64.webp"
+                                                                alt="Image" style="width: 10px; height:7px;"
+                                                                class="mr-1">
+                                                            <span>1676270621232</span>
+                                                        </span>
+                                                        <span
+                                                            class="badge badge-pill badge-primary badge-sm d-inline-block align-middle">
+                                                            <span>HALFYEARLY</span>
+                                                        </span>
+<br>
+<b style="color:DarkSlateGray;">AI Gubaiba Central</b>
+<p style="color:SlateGray;">P0#LPO99823767</p >                                                   </div>
+                                                </div>
+                                            </div>
+                                        </td>
+
+ <td style="color: DarkSlateGray;"><b>Rivoli Group LLC</b></td>
+                                    <td></td>
+                                       <td style="color: DarkSlateGray;"><b text-font="40%;">AED149.95</b>
+<br>
+<span class="badge badge-pill badge-primary">5 Subscriptions</span></td>
+
+
+                                    <td><p>
+    <img src="C:\Users\Sculpture\Downloads\calendar-event-planning-64.webp" alt="Image" style="width: 30px; height:30 px; margin-right:2px;">
+  <b style="color:DarkSlateGray;">24 Feb 2023</b>
+</p>
+</td>
+
+                                </tr>
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

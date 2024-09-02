@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<style>
+    .card-1 {
+        border-radius: 0.5rem;
+  box-shadow: 2px 1px 3px rgba(0,0,0,0.12), 2px 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.carda{
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+}
+
+
+</style>
+<script>
+    function mOver(obj) {
+  obj.style.backgrounColor ="#4CAF50";
+}
+
+function mOut(obj) {
+    obj.style.backgroundColor ="#4CAF50"; 
+}
+</script>
+</head>
+<body>
+    <div class="container-fluid h-100 pt-3" style="padding-left: 2rem;padding-right: 2rem; border-radius: 0.5rem;">
+        <div class="row">
+            <div class="col-2" style="height: 50px;">
+                <i class="fa-solid fa-arrow-left-long "></i>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-2">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="col-2">
+                <i class="fa-solid fa-sliders"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <p style="font-size: 12px;border: 0;margin-bottom: 0;">Aug 13,2020</p>
+                <h4 style="margin-top: 0;"><b>Today</b></h4>
+            </div>
+        </div>
+        <div style="margin-top:2vh;"></div>
+        <div class="row">
+            <div class="col" style="width: 14.28%; padding: 0%;">
+                <button type="button" class="btn btn-outline-secondary" style=" border:0; font-size: 10px;">MON<br>
+                    10
+                </button>
+            </div>
+            <div class="col"style="width: 14.28%; padding: 0%;" >
+                <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">TUE<br>
+                    11
+                </button>
+            </div>
+            <div class="col"style="width: 14.28%; padding: 0%;">
+                <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">WED<br>
+                    12
+                </button>
+            </div>
+            <div class="col" style="width: 14.28%; padding: 0%;">
+                <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px; color:blueviolet;">THU<br>
+                    13<br>.
+                </button>
+            </div>
+            <div class="col" style="width: 14.28%; padding: 0%;">
+                <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">FRI<br>
+                    14
+                </button>
+            </div>
+            <div class="col" style="width:14.28% ;padding: 0%;">
+                <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">SAT<br>
+                    15
+                </button>
+            </div>
+            <div class="col" style="width:14.28%;padding: 0%;">
+                <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">SUN<br>
+                    16
+                </button>
+            </div>
+        </div>
+    </div>
+       <div class="row d-flex justify-content-center">
+        <div class="col-12">
+            <div style="margin-top:3vh;"></div>
+            <div class="card carda" style="width:100% ;border-radius: 1.5 rem;background-size:cover;padding:7%;">
+  <div class="card-body">
+   <div class="row">
+    <div class="col-12">
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1"><b>Title</b></label>
+              <div style="margin-top:1vh;"></div>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Task Title" style="border-radius:0.85rem;background-color: rgb(237, 234, 234);">
+              
+            </div>
+            <div style="margin-top:3vh;"></div>
+            <div class="form-group">
+              <label for="exampleInputPassword1"><b>Creation date</b></label>
+              <div style="margin-top:1vh;"></div>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="17 August 2020" style="border-radius:0.85rem;background-color: rgb(237, 234, 234);">
+            </div>
+            </form>
+    </div>
+   </div>
+   <div style="margin-top:3vh;"></div>
+   <div class="row">
+        <div class="col-5"><b>Start date and time</b></div>
+        <div  class="col-7 d-flex justify-content-end">
+            <div class="dropdown">
+                <button class="btn btn light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <b>August</b>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div style="margin-top:3vh;"></div>
+    <div class="row">
+        <div class="col" style="width: 14.28%; padding: 0%;">
+            <button    onmouseover="mOver(this)" onmouseout="mOut(this)" type="button" class="btn btn-outline-secondary" style=" border:0; font-size: 10px;">MON<br>
+                <b>10</b>
+            </button>
+        </div>
+        <div class="col"style="width: 14.28%; padding: 0%;" >
+            <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">TUE<br>
+                <b>11</b>
+            </button>
+        </div>
+        <div class="col"style="width: 14.28%; padding: 0%;">
+            <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">WED<br>
+            <b>12</b>
+            </button>
+        </div>
+        <div class="col" style="width: 14.28%; padding: 0%;">
+            <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px; color:blueviolet;">THU<br>
+                <b>13</b>.
+            </button>
+        </div>
+        <div class="col" style="width: 14.28%; padding: 0%;">
+            <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">FRI<br>
+                <b>14</b>
+            </button>
+        </div>
+        <div class="col" style="width:14.28% ;padding: 0%;">
+            <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">SAT<br>
+                <b>15</b>
+            </button>
+        </div>
+        <div class="col" style="width:14.28%;padding: 0%;">
+            <button type="button" class="btn btn-outline-secondary" style=" border:0;font-size: 10px;">SUN<br>
+            <b>16</b>
+            </button>
+        </div>
+    </div>
+    <div class="row" style="margin-top: 2vh;">
+        <div class="col-10">
+         <b>Get alert for this task</b>
+        </div>
+        <div class="col-2 d-flex justify-content-end">
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+              </div>
+        </div>
+    </div>
+    <div style="margin-top:3vh;"></div>
+    <button type="button" class="btn btn-primary" style="width:100%; height:7vh;background-color: rgb(164, 89, 235);border-radius: 0.75rem;">Create a task</button>
+   </div>
+
+  </div>
+</div>
+        </div>
+       </div>
+
+    </div>
